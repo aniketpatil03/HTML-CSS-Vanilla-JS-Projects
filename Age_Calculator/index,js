@@ -1,0 +1,8 @@
+const btnElment = document.getElementById("btn")
+
+function calcAge () {
+    console.log("Age")
+}
+
+
+btnElment.addEventListener("click", calcAge)
