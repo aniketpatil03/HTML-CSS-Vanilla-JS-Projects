@@ -11,6 +11,8 @@ body {
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 h1 {
@@ -37,4 +39,25 @@ input {
     border: 1px solid #ccc ;
     width: 100%;
     max-width: 300px;
+}
+
+button {
+    background-color: lightblue;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+
+}
+
+button:hover {
+     background-color: darkblue ;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
