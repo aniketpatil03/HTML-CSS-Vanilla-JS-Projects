@@ -1,8 +1,10 @@
-const btnElment = document.getElementById("btn")
+const btnEl = document.getElementById("btn");
 
-function calcAge () {
-    console.log("Age")
+const birthdayEl = document.getElementById("birthday");
+
+function calculateAge () {
+    const birthdayValue = birthdayEl.value;
+    console.log(birthdayValue);
 }
 
-
-btnElment.addEventListener("click", calcAge)
+btnEl.addEventListener("click", calculateAge)
